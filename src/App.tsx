@@ -1,7 +1,17 @@
 import './App.css';
-import '@cloudscape-design/global-styles/index.css';
+// import '@cloudscape-design/global-styles/index.css';
+// import Button from '@cloudscape-design/components/button';
+
+import { useState } from 'react';
+import Header from '@cloudscape-design/components/header';
+import Container from '@cloudscape-design/components/container';
+import SpaceBetween from '@cloudscape-design/components/space-between';
+import Input from '@cloudscape-design/components/input';
+import Button from '@cloudscape-design/components/button';
 
 function App() {
+	const [value, setValue] = useState('');
+
 	return (
 		<>
 			<div>
@@ -45,6 +55,36 @@ function App() {
 						<input type="text" />
 					</label>
 				</form>
+
+				<h2>Imported Components Below</h2>
+
+				<Button>Hello!</Button>
+
+				<SpaceBetween size="m">
+					<Header variant="h2">Hello World!</Header>
+
+					<Container>
+						<SpaceBetween size="l">
+							<span>Start editing to see some magic happen</span>
+
+							<Input
+								value={value}
+								onChange={(event) => setValue(event.detail.value)}
+							/>
+							<Button variant="primary">Click me</Button>
+
+							<Button iconName="settings" variant="icon" />
+
+							<Button
+								disabled
+								disabledReason="This action is available in the primary region. You need to switch regions."
+								variant="primary"
+							>
+								Delete
+							</Button>
+						</SpaceBetween>
+					</Container>
+				</SpaceBetween>
 			</div>
 		</>
 	);

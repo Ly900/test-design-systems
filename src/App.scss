@@ -1,3 +1,9 @@
+@use '@cloudscape-design/design-tokens/index' as awsui;
+
+.custom-panel {
+	color: awsui.$color-text-body-secondary;
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

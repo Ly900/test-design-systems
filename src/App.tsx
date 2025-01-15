@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 // import '@cloudscape-design/global-styles/index.css';
 // import Button from '@cloudscape-design/components/button';
 
@@ -85,6 +85,8 @@ function App() {
 						</SpaceBetween>
 					</Container>
 				</SpaceBetween>
+
+				<div className="custom-panel">Custom Panel</div>
 			</div>
 		</>
 	);

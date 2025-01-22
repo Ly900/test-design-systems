@@ -3,11 +3,11 @@ import './App.scss';
 // import Button from '@cloudscape-design/components/button';
 
 import { useState } from 'react';
-import Header from '@cloudscape-design/components/header';
-import Container from '@cloudscape-design/components/container';
-import SpaceBetween from '@cloudscape-design/components/space-between';
-import Input from '@cloudscape-design/components/input';
-import Button from '@cloudscape-design/components/button';
+// import Header from '@cloudscape-design/components/header';
+// import Container from '@cloudscape-design/components/container';
+// import SpaceBetween from '@cloudscape-design/components/space-between';
+// import Input from '@cloudscape-design/components/input';
+// import Button from '@cloudscape-design/components/button';
 
 function App() {
 	const [value, setValue] = useState('');
@@ -16,9 +16,12 @@ function App() {
 		<>
 			<div>
 				<h2>Testing out Design Systems</h2>
+				<h1>h1 - Testing out Design Systems</h1>
+				<h2>h2 - Testing out Design Systems</h2>
 				<h3>h3 - Testing out Design Systems</h3>
 				<h4>h4 - Testing out Design Systems</h4>
 				<h5>h5 - Testing out Design Systems</h5>
+				<h6>h6 - Testing out Design Systems</h6>
 
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipiscing, elit proin sagittis
@@ -28,6 +31,10 @@ function App() {
 					massa sociis eu mus molestie senectus aliquet blandit eget. Natoque
 					accumsan lacus pharetra netus tellus cubilia fusce enim facilisi, vel
 				</p>
+
+				<span>Span</span>
+
+				<hr></hr>
 
 				<button>Button</button>
 
@@ -56,11 +63,13 @@ function App() {
 					</label>
 				</form>
 
-				<h2>Imported Components Below</h2>
+				{/* Cloudscape Design System */}
 
-				<Button>Hello!</Button>
+				<h2>Cloudscape Components Below</h2>
 
-				<SpaceBetween size="m">
+				{/* <Button>Hello!</Button> */}
+
+				{/* <SpaceBetween size="m">
 					<Header variant="h2">Hello World!</Header>
 
 					<Container>
@@ -84,7 +93,7 @@ function App() {
 							</Button>
 						</SpaceBetween>
 					</Container>
-				</SpaceBetween>
+				</SpaceBetween> */}
 
 				<div className="custom-panel">Custom Panel</div>
 			</div>

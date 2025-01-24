@@ -86,6 +86,14 @@ function App() {
 					<img src="https://ly900.github.io/test-design-systems/no-global-styles.png" />
 					<img src="https://ly900.github.io/test-design-systems/bootstrap-global-styles.png" />
 				</div>
+
+				<h2>Browser Styles v. Carbon Global Styles</h2>
+
+				<div>
+					<img src="https://ly900.github.io/test-design-systems/no-global-styles.png" />
+					<img src="https://ly900.github.io/test-design-systems/carbon-global-styles.png" />
+				</div>
+
 				{/* Cloudscape Design System */}
 
 				<h2>Cloudscape Components Below</h2>

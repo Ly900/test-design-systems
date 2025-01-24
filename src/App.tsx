@@ -69,6 +69,19 @@ function App() {
 
 				<img src="https://picsum.photos/200/300" />
 
+				<h2>Browser Styles v. Cloudscape Global Styles</h2>
+
+				<div>
+					<img src="https://ly900.github.io/test-design-systems/no-global-styles.png" />
+					<img src="https://ly900.github.io/test-design-systems/cloudscape-global-styles.png" />
+				</div>
+
+				<h2>Browser Styles v. Bootstrap Global Styles</h2>
+
+				<div>
+					<img src="https://ly900.github.io/test-design-systems/no-global-styles.png" />
+					<img src="https://ly900.github.io/test-design-systems/bootstrap-global-styles.png" />
+				</div>
 				{/* Cloudscape Design System */}
 
 				<h2>Cloudscape Components Below</h2>

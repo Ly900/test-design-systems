@@ -75,22 +75,31 @@ function App() {
 
 				<h2>Browser Styles v. Cloudscape Global Styles</h2>
 
-				<div>
-					<img src="https://ly900.github.io/test-design-systems/no-global-styles.png" />
+				<div className="global-style-comparison-container">
+					<img
+						className="no-styles-img"
+						src="https://ly900.github.io/test-design-systems/no-global-styles.png"
+					/>
 					<img src="https://ly900.github.io/test-design-systems/cloudscape-global-styles.png" />
 				</div>
 
 				<h2>Browser Styles v. Bootstrap Global Styles</h2>
 
-				<div>
-					<img src="https://ly900.github.io/test-design-systems/no-global-styles.png" />
+				<div className="global-style-comparison-container">
+					<img
+						className="no-styles-img"
+						src="https://ly900.github.io/test-design-systems/no-global-styles.png"
+					/>
 					<img src="https://ly900.github.io/test-design-systems/bootstrap-global-styles.png" />
 				</div>
 
 				<h2>Browser Styles v. Carbon Global Styles</h2>
 
-				<div>
-					<img src="https://ly900.github.io/test-design-systems/no-global-styles.png" />
+				<div className="global-style-comparison-container">
+					<img
+						className="no-styles-img"
+						src="https://ly900.github.io/test-design-systems/no-global-styles.png"
+					/>
 					<img src="https://ly900.github.io/test-design-systems/carbon-global-styles.png" />
 				</div>
 

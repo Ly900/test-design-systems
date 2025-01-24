@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.scss';
 
 // Cloudscape Design System Imports
@@ -13,8 +12,6 @@ import './App.scss';
 // import bootstrap from './bootstrap.js';
 
 function App() {
-	const [value, setValue] = useState('');
-
 	return (
 		<>
 			<div>

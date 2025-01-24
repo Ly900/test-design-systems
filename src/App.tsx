@@ -2,6 +2,7 @@ import './App.scss';
 
 // Cloudscape Design System Imports
 // import '@cloudscape-design/global-styles/index.css';
+
 // import Header from '@cloudscape-design/components/header';
 // import Container from '@cloudscape-design/components/container';
 // import SpaceBetween from '@cloudscape-design/components/space-between';
@@ -10,6 +11,9 @@ import './App.scss';
 
 // Bootstrap Imports
 // import bootstrap from './bootstrap.js';
+
+// Carbon Design System Imports
+import { Button } from '@carbon/react';
 
 function App() {
 	return (
@@ -115,6 +119,9 @@ function App() {
 				</SpaceBetween> */}
 
 				<div className="custom-panel">Custom Panel</div>
+
+				<h2>Carbon Components Below</h2>
+				<Button>Example usage</Button>
 			</div>
 		</>
 	);

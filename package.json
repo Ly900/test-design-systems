@@ -12,6 +12,7 @@
 		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
+		"@carbon/react": "^1.74.0",
 		"@cloudscape-design/components": "^3.0.869",
 		"@cloudscape-design/design-tokens": "^3.0.51",
 		"@cloudscape-design/global-styles": "^1.0.34",

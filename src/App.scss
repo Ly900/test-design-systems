@@ -1,7 +1,11 @@
-@use '@cloudscape-design/design-tokens/index' as awsui;
+// @use '@cloudscape-design/design-tokens/index' as awsui;
+
+// Carbon Global Styles
+@use '@carbon/react';
+// @use '@carbon/react/scss/components/button';
 
 .custom-panel {
-	color: awsui.$color-text-body-secondary;
+	// color: awsui.$color-text-body-secondary;
 }
 
 /* #root {

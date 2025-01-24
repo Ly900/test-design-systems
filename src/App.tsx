@@ -1,13 +1,16 @@
-import './App.scss';
-// import '@cloudscape-design/global-styles/index.css';
-// import Button from '@cloudscape-design/components/button';
-
 import { useState } from 'react';
+import './App.scss';
+
+// Cloudscape Design System Imports
+// import '@cloudscape-design/global-styles/index.css';
 // import Header from '@cloudscape-design/components/header';
 // import Container from '@cloudscape-design/components/container';
 // import SpaceBetween from '@cloudscape-design/components/space-between';
 // import Input from '@cloudscape-design/components/input';
 // import Button from '@cloudscape-design/components/button';
+
+// Bootstrap Imports
+// import bootstrap from './bootstrap.js';
 
 function App() {
 	const [value, setValue] = useState('');
@@ -15,7 +18,6 @@ function App() {
 	return (
 		<>
 			<div>
-				<h2>Testing out Design Systems</h2>
 				<h1>h1 - Testing out Design Systems</h1>
 				<h2>h2 - Testing out Design Systems</h2>
 				<h3>h3 - Testing out Design Systems</h3>
@@ -24,13 +26,19 @@ function App() {
 				<h6>h6 - Testing out Design Systems</h6>
 
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipiscing, elit proin sagittis
-					porta a ac nam, morbi maecenas integer ante lectus. Phasellus porta
-					quis tortor sociosqu augue elementum leo praesent magna lacinia,
-					sagittis primis faucibus potenti in nullam iaculis feugiat natoque,
-					massa sociis eu mus molestie senectus aliquet blandit eget. Natoque
-					accumsan lacus pharetra netus tellus cubilia fusce enim facilisi, vel
+					Lorem ipsum dolor sit amet <a href="#">leo</a> consectetur adipiscing,
+					elit proin sagittis porta a ac nam, morbi maecenas integer ante
+					lectus. Phasellus porta quis tortor sociosqu augue elementum praesent
+					magna lacinia, sagittis primis faucibus potenti in nullam iaculis
+					feugiat natoque, massa sociis.
 				</p>
+
+				<form>
+					<label>
+						Enter your name:
+						<input type="text" />
+					</label>
+				</form>
 
 				<span>Span</span>
 
@@ -50,18 +58,19 @@ function App() {
 					</li>
 				</ul>
 
-				<p>
-					<a href="#">link in a p</a>
-				</p>
+				<ol>
+					<li>
+						<a href="#">link</a>
+					</li>
+					<li>
+						<a href="#">link</a>
+					</li>
+					<li>
+						<a href="#">link</a>
+					</li>
+				</ol>
 
 				<img src="https://picsum.photos/200/300" />
-
-				<form>
-					<label>
-						Enter your name:
-						<input type="text" />
-					</label>
-				</form>
 
 				{/* Cloudscape Design System */}
 
